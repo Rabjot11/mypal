@@ -48,6 +48,7 @@
     font-weight: 500;
     background: white;
     cursor: pointer;
+    list-style: none;
 }
 .nav-login-cart button:active{
     background: #f3f3f3;
@@ -65,4 +66,12 @@
     background: #f71f1f;
     color: white;
 
+}
+.nav-login-cart li{
+    display: flex;
+    
+    align-items: center;
+    
+    
+    cursor: pointer;
 }

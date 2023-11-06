@@ -22,7 +22,8 @@ function Nav()
 
                 </ul>
                 <div class="nav-login-cart">
-                    <button>Login</button>
+                    <ul></ul>
+                    <li onClick={()=>{setMenu("login")}}><Link class="nav-link " to="/login"><button>Login</button></Link>{menu=="login"?<hr/>:<></>}</li>
                     <img src={cart_icon} alt="" />
                     <div class="nav-cart-count">0</div>
                     </div>                 

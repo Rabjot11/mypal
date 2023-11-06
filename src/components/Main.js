@@ -1,5 +1,6 @@
 import homepet from './images/pethome.jpg';
 import p2 from './images/p2.jpg';
+import { Newsletter } from './Newsletter/NewsLetter';
 export function Home()
 {
     return(
@@ -14,6 +15,10 @@ export function Home()
                backgroundRepeat: "no-repeat",
               
             }}>
+
+                    
+           
+                
 
 
                 
