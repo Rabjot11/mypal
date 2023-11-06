@@ -17,7 +17,7 @@ export function Footer()
                 </ul>
             </div>
             <div class=" col-sm-12 col-md-6 col-lg-3">
-                <h1 id="h1">Servies</h1>
+                <h1 id="h1">  Servies</h1>
                 <ul>
                     <li class="p-1"><a class="text-secondary text-decoration-none">Grooming</a></li>
                     <li class="p-1"><a class="text-secondary text-decoration-none">Positive Dog Training</a></li>
