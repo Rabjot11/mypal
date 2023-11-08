@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black ;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.outer-container p{
+    color:blueviolet;
+    font-size: 45px;
+    font-weight: 600;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: left;
+    margin: 10px 0px;
+}
+.contactform label{
+    font-size:  18px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.contactform input{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px black solid;
+}
+.outer-container button{
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px white solid;
+    background-color: blanchedalmond;
+    font-weight: 700;
+
+}
+.outer-container button:hover{
+    cursor: pointer ;
+    
+}
