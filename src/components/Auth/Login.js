@@ -33,7 +33,7 @@ export const Login=() =>{
                         <label htmlFor='email'>Email</label>
                         <input type='email'  placeholder="Enter your Email" 
                         value={email}
-                        onChange={(e) => setEmail(e.target.value)} />
+                        onChange={(event) => setEmail(event.target.value)} />
                     </div>
                     
 
@@ -41,7 +41,7 @@ export const Login=() =>{
                         <label htmlFor='password'>Password</label>
                         <input type='password'  placeholder="Enter your Password" 
                         value={password} 
-                        onChange={(e) => setPassword(e.target.value)} />
+                        onChange={(event) => setPassword(event.target.value)} />
                     </div>
 
                     <Link to='/forgotpassword'
