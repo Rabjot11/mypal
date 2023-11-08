@@ -1,0 +1,31 @@
+.item{
+    width: 350px;
+}
+.item p{
+    margin: 6px 0px;
+}
+
+.item-content{
+    display: flex;
+    gap: 20px;
+}
+
+.item-age{
+    color: #374151;
+    font-size: 18x;
+    font-weight: 600;
+}
+.item-breed{
+    color: #374151;
+    font-size: 18x;
+    font-weight: 600;
+}
+.item-color{
+    color: #374151;
+    font-size: 18x;
+    font-weight: 600;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}

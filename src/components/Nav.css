@@ -16,22 +16,8 @@
     gap: 50px;
     font-size: 20px;
 }
-.nav-menu li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3px;
-    cursor: pointer;
 
-}
-.nav-menu hr{
-   border: none;
-   width: 80%;
-   height: 3px;
-   border-radius: 10px;
-    background: #f71f1f;
-}
+
 .nav-login-cart{
     display: flex;
     align-items: center;
